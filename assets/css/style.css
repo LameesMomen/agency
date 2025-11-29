@@ -1256,7 +1256,7 @@ The Clients
 
 /* 
 ---------------------------------------------
-The Clients
+The Partners
 ---------------------------------------------
 */
 
@@ -1348,6 +1348,84 @@ Free Quote
   font-size: 15px;
   color: #fff;
 }
+
+/*
+---------------------------------------------
+Contact Us
+---------------------------------------------
+*/
+
+.contact-us {
+  padding-top: 130px;
+  position: relative;
+}
+
+.contact-us .section-heading {
+  margin-bottom: 45px;
+}
+
+.contact-us .section-heading,
+.contact-us .box-item,
+.contact-us p,
+.contact-us .box-item .gradient-button,
+.contact-us .box-item span {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-us .box-item {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  height: 90%;
+}
+
+.contact-us .box-item h4 a {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+  color: #2a2a2a;
+  transition: all .3s;
+}
+
+.contact-us .box-item p {
+  margin-bottom: 0px;
+}
+
+.contact-us .box-item:hover h4 a {
+  color: #F59B1A;
+}
+
+.contact-us .gradient-button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-us span {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.contact-us .right-image {
+  position: relative;
+  z-index: 1;
+}
+
+/* .contact-us:after {
+  background-image: url(../images/about-bg.png);
+  opacity: 0.7;
+  width: 777px;
+  height: 1132px;
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+} */
 
 
 /* 
