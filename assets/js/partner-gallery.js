@@ -89,6 +89,15 @@ const partnerGalleries = {
     "assets/images/partners/hadr-mout/partner9-6.jpg",
     "assets/images/partners/hadr-mout/partner9-7.jpg",
   ],
+  partner10: [
+    "assets/images/partners/sraya/partner10-1.jpg",
+    "assets/images/partners/sraya/partner10-2.jpg",
+    "assets/images/partners/sraya/partner10-3.jpg",
+    "assets/images/partners/sraya/partner10-4.jpg",
+    "assets/images/partners/sraya/partner10-5.jpg",
+    "assets/images/partners/sraya/partner10-6.jpg",
+    "assets/images/partners/sraya/partner10-7.jpg",
+  ],
 };
 
 let currentGallery = [];
