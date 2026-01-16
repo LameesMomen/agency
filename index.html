@@ -634,41 +634,148 @@
         </div>
         <div class="row">
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-1.jpeg" />
+            <img
+              src="assets/images/partners/image-1.jpeg"
+              class="partner-img"
+              data-partner="partner1"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-2.jpeg" />
+            <img
+              src="assets/images/partners/image-9.jpeg"
+              class="partner-img"
+              data-partner="partner2"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-3.jpeg" />
+            <img
+              src="assets/images/partners/image-3.jpeg"
+              class="partner-img"
+              data-partner="partner3"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-4.jpeg" />
+            <img
+              src="assets/images/partners/image-10.jpeg"
+              class="partner-img"
+              data-partner="partner4"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-5.jpeg" />
+            <img
+              src="assets/images/partners/image-4.jpeg"
+              class="partner-img"
+              data-partner="partner5"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-6.jpeg" />
+            <img
+              src="assets/images/partners/image-7.jpeg"
+              class="partner-img"
+              data-partner="partner6"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-7.jpeg" />
+            <img
+              src="assets/images/partners/image-8.jpeg"
+              class="partner-img"
+              data-partner="partner7"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-8.jpeg" />
+            <img
+              src="assets/images/partners/image-5.jpeg"
+              class="partner-img"
+              data-partner="partner8"
+              data-index="0"
+            />
           </div>
           <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-9.jpeg" />
-          </div>
-          <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-10.jpeg" />
-          </div>
-          <div class="col-lg-2 my-2">
-            <img src="assets/images/partners/image-11.jpeg" />
+            <img
+              src="assets/images/partners/image-11.jpeg"
+              class="partner-img"
+              data-partner="partner9"
+              data-index="0"
+            />
           </div>
         </div>
       </div>
     </div>
+
+    <div id="pricing" class="pricing-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading">
+          <h4>Simple & <em>Transparent Pricing</em></h4>
+          <p>
+            Choose the perfect package for your food brand. No hidden fees —
+            just creative results.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Starter -->
+      <div class="col-lg-4">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price">$299</p>
+          <ul>
+            <li>✔ 10 Food Photos</li>
+            <li>✔ Basic Editing</li>
+            <li>✔ Social Media Ready</li>
+            <li>✖ Video Content</li>
+            <li>✖ Strategy Session</li>
+          </ul>
+          <a href="#contact" class="main-button">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Popular -->
+      <div class="col-lg-4">
+        <div class="pricing-card featured">
+          <span class="badge">Most Popular</span>
+          <h3>Growth</h3>
+          <p class="price">$599</p>
+          <ul>
+            <li>✔ 25 Food Photos</li>
+            <li>✔ Professional Retouching</li>
+            <li>✔ 3 Short Videos</li>
+            <li>✔ Social Media Strategy</li>
+            <li>✔ Brand Consultation</li>
+          </ul>
+          <a href="#contact" class="main-button">Choose Plan</a>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="col-lg-4">
+        <div class="pricing-card">
+          <h3>Premium</h3>
+          <p class="price">$999</p>
+          <ul>
+            <li>✔ Unlimited Photoshoot Session</li>
+            <li>✔ Full Video Production</li>
+            <li>✔ Ads Creative Content</li>
+            <li>✔ Monthly Social Media Plan</li>
+            <li>✔ Priority Support</li>
+          </ul>
+          <a href="#contact" class="main-button">Let’s Talk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <div id="contact" class="contact-us section">
       <div class="container">
@@ -699,9 +806,9 @@
               <div class="col-lg-12">
                 <p>
                   Reach out to us anytime and let’s start creating something
-                  delicious together. send us a message, or
-                  connect through any of our channels—we’ll get back to you
-                  shortly with the support you need.
+                  delicious together. send us a message, or connect through any
+                  of our channels—we’ll get back to you shortly with the support
+                  you need.
                 </p>
               </div>
             </div>
@@ -733,6 +840,36 @@
       </div>
     </footer>
 
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-transparent border-0">
+          <div class="modal-body text-center position-relative">
+            <button
+              style="border-radius: 50%;"
+              class="btn btn-light position-absolute start-0 top-50"
+              onclick="prevImage()"
+            >
+              ‹
+            </button>
+
+            <img
+              id="galleryImage"
+              class="img-fluid rounded"
+              alt="partner gallery"
+            />
+
+            <button
+              style="border-radius: 50%;"
+              class="btn btn-light position-absolute end-0 top-50"
+              onclick="nextImage()"
+            >
+              ›
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Scripts -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -741,5 +878,6 @@
     <script src="assets/js/imagesloaded.js"></script>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets//js/partner-gallery.js"></script>
   </body>
 </html>

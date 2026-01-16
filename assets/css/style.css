@@ -1265,6 +1265,8 @@ The Partners
 
 .partners-section {
   padding-top: 130px;
+  z-index: 100;
+  position: relative;
 }
 
 .partners-section .section-heading {
@@ -1277,6 +1279,112 @@ The Partners
   margin-left: 18%;
   margin-right: 18%;
 }
+
+.partners-section .partner-img {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.partners-section .partner-img:hover {
+  transform: scale(1.05);
+}
+
+
+/* 
+---------------------------------------------
+The Pricing
+---------------------------------------------
+*/
+
+.pricing-section {
+  padding-top: 130px;
+  z-index: 100;
+  position: relative;
+}
+
+.pricing-section .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pricing-section .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+
+.pricing {
+  background: #f9f9f9;
+}
+
+.pricing-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  height: 100%;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-card h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pricing-card .price {
+  font-size: 40px;
+  font-weight: 800;
+  color: #F59B1A;
+  margin: 20px 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.pricing-card .main-button {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #F59B1A, #ff784d);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pricing-card.featured {
+  transform: scale(1.05);
+  border: 2px solid #F59B1A;
+}
+
+.pricing-card.featured .badge {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #F59B1A;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 
 
 /* 
@@ -1665,7 +1773,6 @@ a.btn_red {
 
 .social_login .icon {
   display: inline-block;
-  
   padding: 5px 10px;
   margin-right: 10px;
   float: left;
