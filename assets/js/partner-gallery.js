@@ -1,18 +1,3 @@
-  window.addEventListener("load", () => {
-    if ("requestIdleCallback" in window) {
-      requestIdleCallback(preloadPartnerImages);
-    } else {
-      setTimeout(preloadPartnerImages, 2000);
-    }
-  });
-
-  function preloadPartnerImages() {
-    Object.values(partnerGalleries).flat().forEach((src) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }
-
 const partnerGalleries = {
   partner1: [
     "assets/images/partners/bondok/partner1-1.webp",
