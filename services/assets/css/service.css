@@ -1,0 +1,345 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #2a003d, #5b004f, #ff6a00);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+/* ===== Branding Page Layout ===== */
+.branding-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* ===== Left Text Section ===== */
+.branding-text {
+  flex: 1;
+}
+
+.branding-text h1 {
+  font-family: "Merriweather", serif;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffcc70;
+}
+
+.branding-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #f5f5f5;
+}
+
+.branding-text ul {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  list-style: none;
+}
+
+.branding-text ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffe7c2;
+}
+
+/* Button */
+.branding-text button {
+  background: #ff8c00;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.branding-text button:hover {
+  background: #ff5500;
+  transform: scale(1.05);
+}
+
+/* ===== Right Image Section ===== */
+.branding-image {
+  flex: 1;
+  text-align: center;
+}
+
+.branding-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(255, 120, 0, 0.6);
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Main Bullet Points */
+.main-points {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.main-points li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ffe7c2;
+}
+
+/* Section Titles */
+.small-title {
+  font-size: 22px;
+  margin-top: 35px;
+  margin-bottom: 18px;
+  color: #ffcc70;
+  font-family: "Merriweather", serif;
+}
+
+/* Services Cards */
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-item {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 200, 120, 0.25);
+  padding: 15px 18px;
+  border-radius: 14px;
+  transition: 0.3s ease;
+}
+
+.service-item h4 {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.service-item p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+}
+
+.service-item:hover {
+  transform: translateY(-6px);
+  border-color: #ff8c00;
+  box-shadow: 0px 0px 18px rgba(255, 140, 0, 0.5);
+}
+
+/* Results List */
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.results-list li {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Final Line */
+.final-line {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffcc70;
+}
+
+/* CTA Button */
+.cta-btn {
+  margin-top: 25px;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(to right, #ff7a00, #ffcc70);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px rgba(255, 180, 90, 0.8);
+}
+
+
+/* ================================
+   FLARE Contact Section
+================================ */
+.flare-contact-section {
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Heading */
+.contact-heading h4 {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+}
+
+.contact-heading h4 em {
+  color: #ffcc70;
+  font-style: normal;
+}
+
+.contact-heading p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Contact Boxes */
+.contact-box {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 200, 100, 0.25);
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  transition: 0.4s ease;
+  backdrop-filter: blur(10px);
+  height: 100%;
+}
+
+.contact-box i {
+  font-size: 32px;
+  margin-bottom: 12px;
+  color: #ffcc70;
+}
+
+.contact-box h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.contact-box p {
+  margin-top: 8px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Hover Effect */
+.contact-box:hover {
+  transform: translateY(-10px);
+  border-color: #ff8c00;
+  box-shadow: 0px 0px 25px rgba(255, 140, 0, 0.5);
+}
+
+/* Note Text */
+.contact-note {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+}
+
+/* CTA Button */
+.contact-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #ff7a00, #ffcc70);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px rgba(255, 180, 80, 0.8);
+}
+
+/* Right Image */
+.contact-image {
+  text-align: center;
+}
+
+.contact-image img {
+  max-width: 95%;
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+/* Floating Animation */
+@keyframes floatImage {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* ================================
+   Back to Home Button
+================================ */
+.back-home-btn {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 22px;
+  border-radius: 14px;
+
+  background: linear-gradient(to right, #ff7a00, #ffcc70);
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+
+  box-shadow: 0px 0px 20px rgba(255, 150, 50, 0.5);
+
+  transition: 0.35s ease;
+  z-index: 9999;
+}
+
+/* Icon */
+.back-home-btn i {
+  font-size: 16px;
+}
+
+/* Hover Effect */
+.back-home-btn:hover {
+  transform: translateX(-6px) scale(1.05);
+  box-shadow: 0px 0px 30px rgba(255, 180, 90, 0.9);
+  color: black;
+}
+

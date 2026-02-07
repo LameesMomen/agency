@@ -1029,6 +1029,14 @@ Services Style
   background-repeat: no-repeat;
   background-size: cover;
 } */
+.see-more-link a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #F59B1A;
+}
+.see-more-link:hover{
+  transform: scale(1.2);
+}
 
 
 
