@@ -26,6 +26,28 @@
 
     <title>FLARE</title>
 
+    <meta content="flare , flare ads , flare advertising" name="keywords" />
+    <meta content="website" name="og:type" />
+    <meta content="FLARE" name="og:title" />
+    <meta content="assets/images/logoSmall.png" name="og:image" />
+    <meta content="FLARE" name="og:site_name" />
+    <meta
+      content="At our Food Marketing Agency, we help food brands grow, connect,
+                and shine in a competitive market. We blend creativity with
+                strategy to bring your flavors to life—online and on the shelf.
+                Our mission is simple: turn your food into a brand people crave,
+                remember, and trust."
+      name="og:description"
+    />
+    <meta
+      content="At our Food Marketing Agency, we help food brands grow, connect,
+                and shine in a competitive market. We blend creativity with
+                strategy to bring your flavors to life—online and on the shelf.
+                Our mission is simple: turn your food into a brand people crave,
+                remember, and trust."
+      name="description"
+    />
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -51,7 +73,7 @@
           <span></span>
         </div> -->
         <img
-          src="/assets/images/logo1.png"
+          src="/assets/images/logoSmall.png"
           width="250px"
           height="250px"
           srcset=""
@@ -96,12 +118,17 @@
                   <a href="#partners">Partners</a>
                 </li>
                 <li class="scroll-to-section">
+                  <a href="#pricing">Pricing</a>
+                </li>
+                <li class="scroll-to-section">
                   <a href="#contact">Contact Us</a>
                 </li>
                 <!-- <li class="scroll-to-section">
                   <a href="#newsletter">Newsletter</a>
                 </li> -->
-                <li class="scroll-to-section"><a href="index_ar.html">عربي</a></li>
+                <li class="scroll-to-section">
+                  <!-- <a href="index_ar.html">عربي</a> -->
+                </li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -123,7 +150,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="row">
+            <div class="row flex-column-reverse flex-lg-row flex-md-row">
               <div class="col-lg-6 align-self-center">
                 <div
                   class="left-content show-up header-text wow fadeInLeft"
@@ -313,7 +340,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 d-none d-lg-block d-md-block">
             <div class="right-image">
               <img src="assets/images/about-right-dec.png" alt="about-us" />
             </div>
@@ -730,72 +757,86 @@
       </div>
     </div>
 
-    <div id="pricing" class="pricing-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">
-            <div class="section-heading">
-              <h4>Simple & <em>Transparent Pricing</em></h4>
-              <p>
-                Choose the perfect package for your food brand. No hidden fees —
-                just creative results.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- Starter -->
-          <div class="col-lg-4">
-            <div class="pricing-card">
-              <h3>Starter</h3>
-              <p class="price">$299</p>
-              <ul>
-                <li>✔ 10 Food Photos</li>
-                <li>✔ Basic Editing</li>
-                <li>✔ Social Media Ready</li>
-                <li>✖ Video Content</li>
-                <li>✖ Strategy Session</li>
-              </ul>
-              <a href="#contact" class="main-button">Get Started</a>
-            </div>
-          </div>
-
-          <!-- Popular -->
-          <div class="col-lg-4">
-            <div class="pricing-card featured">
-              <span class="badge">Most Popular</span>
-              <h3>Growth</h3>
-              <p class="price">$599</p>
-              <ul>
-                <li>✔ 25 Food Photos</li>
-                <li>✔ Professional Retouching</li>
-                <li>✔ 3 Short Videos</li>
-                <li>✔ Social Media Strategy</li>
-                <li>✔ Brand Consultation</li>
-              </ul>
-              <a href="#contact" class="main-button">Choose Plan</a>
-            </div>
-          </div>
-
-          <!-- Premium -->
-          <div class="col-lg-4">
-            <div class="pricing-card">
-              <h3>Premium</h3>
-              <p class="price">$999</p>
-              <ul>
-                <li>✔ Unlimited Photoshoot Session</li>
-                <li>✔ Full Video Production</li>
-                <li>✔ Ads Creative Content</li>
-                <li>✔ Monthly Social Media Plan</li>
-                <li>✔ Priority Support</li>
-              </ul>
-              <a href="#contact" class="main-button">Let’s Talk</a>
-            </div>
-          </div>
+<div id="pricing" class="pricing-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="section-heading text-center">
+          <h4>Choose Your <em>Growth Level</em></h4>
+          <p>
+            From strong beginnings to full market domination — we build the
+            right strategy for every ambitious food brand.
+          </p>
         </div>
       </div>
     </div>
+
+    <div class="row g-4 mt-4">
+
+      <!-- Ignite -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <h3>Ignite Flare</h3>
+          <p class="price">Starting From<br><span>$499</span></p>
+          <ul>
+            <li>Brand Identity Basics</li>
+            <li>Content Strategy</li>
+            <li>2 Social Platforms</li>
+            <li>Basic Ad Setup</li>
+          </ul>
+          <a href="/pricing/ignite.html" class="main-button w-100">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Elevate (Featured) -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card featured">
+          <div class="badge">Most Popular</div>
+          <h3>Elevate</h3>
+          <p class="price">Starting From<br><span>$899</span></p>
+          <ul>
+            <li>Full Branding Kit</li>
+            <li>Professional Shoot</li>
+            <li>3 Social Platforms</li>
+            <li>Monthly Campaign</li>
+          </ul>
+          <a href="/pricing/elevate.html" class="main-button w-100">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Authority -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <h3>Authority</h3>
+          <p class="price">Starting From<br><span>$1499</span></p>
+          <ul>
+            <li>Advanced Branding</li>
+            <li>Website Design</li>
+            <li>Full Social Management</li>
+            <li>Paid Ads Management</li>
+          </ul>
+          <a href="/pricing/authority.html" class="main-button w-100">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Domination -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-card">
+          <h3>Domination</h3>
+          <p class="price">Starting From<br><span>$1499</span></p>
+          <ul>
+            <li>Complete Brand Strategy</li>
+            <li>Premium Video Production</li>
+            <li>Full Funnel Marketing</li>
+            <li>Growth Consultancy</li>
+          </ul>
+          <a href="/pricing/domination.html" class="main-button w-100">Get Started</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
     <div id="contact" class="contact-us section">
       <div class="container">
@@ -848,7 +889,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 d-none d-lg-block d-md-block">
             <div class="right-image">
               <img
                 src="assets/images/Call center-cuate.png"
