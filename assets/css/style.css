@@ -441,6 +441,10 @@ header
   opacity: 1;
 }
 
+.background-header .main-nav .nav li a {
+  color: black!important;
+}
+
 .header-area .main-nav .nav li.submenu {
   position: relative;
   padding-right: 30px;
