@@ -253,6 +253,10 @@ body {
   color: rgba(255, 255, 255, 0.75);
 }
 
+#contact .contact-box p a{
+  color: #F59B1A;
+}
+
 /* Hover Effect */
 .contact-box:hover {
   transform: translateY(-10px);

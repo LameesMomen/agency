@@ -1353,14 +1353,18 @@ The Pricing
 }
 
 .pricing-card ul {
-  list-style: none;
   padding: 0;
   margin: 25px 0;
+}
+
+.pricing-card ul,.pricing-card ul li{
+  list-style: inside !important;
 }
 
 .pricing-card ul li {
   margin-bottom: 10px;
   font-size: 14px;
+  text-align: start;
 }
 
 .pricing-card .main-button {
@@ -1520,6 +1524,11 @@ Contact Us
 
 .contact-us .box-item p {
   margin-bottom: 0px;
+}
+
+.contact-us .box-item p a {
+  color: #F59B1A;
+  text-decoration: underline !important;
 }
 
 .contact-us .box-item:hover h4 a {
