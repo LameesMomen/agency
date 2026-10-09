@@ -1,132 +1,102 @@
-const partnerGalleries = {
+/* Partner galleries (optimized web images), consumed by the lightbox in flare.js */
+window.FLARE_GALLERIES = {
   partner1: [
-    "assets/images/partners/bondok/partner1-1.jpg",
-    "assets/images/partners/bondok/partner1-2.jpg",
-    "assets/images/partners/bondok/partner1-3.jpg",
-    "assets/images/partners/bondok/partner1-4.jpg",
-    "assets/images/partners/bondok/partner1-5.jpg",
-    "assets/images/partners/bondok/partner1-6.jpg",
-    "assets/images/partners/bondok/partner1-7.jpg",
-    "assets/images/partners/bondok/partner1-8.jpg",
-    "assets/images/partners/bondok/partner1-9.jpg",
+    "assets/images/partners/bondok/web/partner1-1.webp",
+    "assets/images/partners/bondok/web/partner1-2.webp",
+    "assets/images/partners/bondok/web/partner1-3.webp",
+    "assets/images/partners/bondok/web/partner1-4.webp",
+    "assets/images/partners/bondok/web/partner1-5.webp",
+    "assets/images/partners/bondok/web/partner1-6.webp",
+    "assets/images/partners/bondok/web/partner1-7.webp",
+    "assets/images/partners/bondok/web/partner1-8.webp",
+    "assets/images/partners/bondok/web/partner1-9.webp",
   ],
   partner2: [
-    "assets/images/partners/belly/partner2-1.jpg",
-    "assets/images/partners/belly/partner2-2.jpg",
-    "assets/images/partners/belly/partner2-3.jpg",
-    "assets/images/partners/belly/partner2-4.jpg",
-    "assets/images/partners/belly/partner2-5.jpg",
-    "assets/images/partners/belly/partner2-6.jpg",
-    "assets/images/partners/belly/partner2-7.jpg",
-    "assets/images/partners/belly/partner2-8.jpg",
-    "assets/images/partners/belly/partner2-9.jpg",
-    "assets/images/partners/belly/partner2-10.jpg",
+    "assets/images/partners/belly/web/partner2-1.webp",
+    "assets/images/partners/belly/web/partner2-2.webp",
+    "assets/images/partners/belly/web/partner2-3.webp",
+    "assets/images/partners/belly/web/partner2-4.webp",
+    "assets/images/partners/belly/web/partner2-5.webp",
+    "assets/images/partners/belly/web/partner2-6.webp",
+    "assets/images/partners/belly/web/partner2-7.webp",
+    "assets/images/partners/belly/web/partner2-8.webp",
+    "assets/images/partners/belly/web/partner2-9.webp",
+    "assets/images/partners/belly/web/partner2-10.webp",
   ],
   partner3: [
-    "assets/images/partners/gad/partner3-1.jpg",
-    "assets/images/partners/gad/partner3-2.jpg",
-    "assets/images/partners/gad/partner3-3.jpg",
-    "assets/images/partners/gad/partner3-4.jpg",
-    "assets/images/partners/gad/partner3-5.jpg",
-    "assets/images/partners/gad/partner3-6.jpg",
-    "assets/images/partners/gad/partner3-7.jpg",
-    "assets/images/partners/gad/partner3-8.jpg",
-    "assets/images/partners/gad/partner3-9.jpg",
-    "assets/images/partners/gad/partner3-10.jpg",
+    "assets/images/partners/gad/web/partner3-1.webp",
+    "assets/images/partners/gad/web/partner3-2.webp",
+    "assets/images/partners/gad/web/partner3-3.webp",
+    "assets/images/partners/gad/web/partner3-4.webp",
+    "assets/images/partners/gad/web/partner3-5.webp",
+    "assets/images/partners/gad/web/partner3-6.webp",
+    "assets/images/partners/gad/web/partner3-7.webp",
+    "assets/images/partners/gad/web/partner3-8.webp",
+    "assets/images/partners/gad/web/partner3-9.webp",
+    "assets/images/partners/gad/web/partner3-10.webp",
   ],
   partner4: [
-    "assets/images/partners/party/partner4-1.jpg",
-    "assets/images/partners/party/partner4-2.jpg",
-    "assets/images/partners/party/partner4-3.jpg",
-    "assets/images/partners/party/partner4-5.jpg",
-    "assets/images/partners/party/partner4-6.jpg",
-    "assets/images/partners/party/partner4-7.jpg",
+    "assets/images/partners/party/web/partner4-1.webp",
+    "assets/images/partners/party/web/partner4-2.webp",
+    "assets/images/partners/party/web/partner4-3.webp",
+    "assets/images/partners/party/web/partner4-5.webp",
+    "assets/images/partners/party/web/partner4-6.webp",
+    "assets/images/partners/party/web/partner4-7.webp",
   ],
   partner5: [
-    "assets/images/partners/abo-amar/partner5-1.jpg",
-    "assets/images/partners/abo-amar/partner5-2.jpg",
-    "assets/images/partners/abo-amar/partner5-3.jpg",
-    "assets/images/partners/abo-amar/partner5-5.jpg",
-    "assets/images/partners/abo-amar/partner5-6.jpg",
-    "assets/images/partners/abo-amar/partner5-7.jpg",
+    "assets/images/partners/abo-amar/web/partner5-1.webp",
+    "assets/images/partners/abo-amar/web/partner5-2.webp",
+    "assets/images/partners/abo-amar/web/partner5-3.webp",
+    "assets/images/partners/abo-amar/web/partner5-5.webp",
+    "assets/images/partners/abo-amar/web/partner5-6.webp",
+    "assets/images/partners/abo-amar/web/partner5-7.webp",
   ],
   partner6: [
-    "assets/images/partners/turkish/partner6-1.jpg",
-    "assets/images/partners/turkish/partner6-2.jpg",
-    "assets/images/partners/turkish/partner6-3.jpg",
-    "assets/images/partners/turkish/partner6-4.jpg",
-    "assets/images/partners/turkish/partner6-5.jpg",
-    "assets/images/partners/turkish/partner6-6.jpg",
-    "assets/images/partners/turkish/partner6-7.jpg",
+    "assets/images/partners/turkish/web/partner6-1.webp",
+    "assets/images/partners/turkish/web/partner6-2.webp",
+    "assets/images/partners/turkish/web/partner6-3.webp",
+    "assets/images/partners/turkish/web/partner6-4.webp",
+    "assets/images/partners/turkish/web/partner6-5.webp",
+    "assets/images/partners/turkish/web/partner6-6.webp",
+    "assets/images/partners/turkish/web/partner6-7.webp",
   ],
   partner7: [
-    "assets/images/partners/lemozen/partner7-1.jpg",
-    "assets/images/partners/lemozen/partner7-2.jpg",
-    "assets/images/partners/lemozen/partner7-3.jpg",
-    "assets/images/partners/lemozen/partner7-4.jpg",
-    "assets/images/partners/lemozen/partner7-5.jpg",
-    "assets/images/partners/lemozen/partner7-6.jpg",
-    "assets/images/partners/lemozen/partner7-7.jpg",
+    "assets/images/partners/lemozen/web/partner7-1.webp",
+    "assets/images/partners/lemozen/web/partner7-2.webp",
+    "assets/images/partners/lemozen/web/partner7-3.webp",
+    "assets/images/partners/lemozen/web/partner7-4.webp",
+    "assets/images/partners/lemozen/web/partner7-5.webp",
+    "assets/images/partners/lemozen/web/partner7-6.webp",
+    "assets/images/partners/lemozen/web/partner7-7.webp",
   ],
   partner8: [
-    "assets/images/partners/master/partner8-1.jpg",
-    "assets/images/partners/master/partner8-2.jpg",
-    "assets/images/partners/master/partner8-3.jpg",
-    "assets/images/partners/master/partner8-4.jpg",
-    "assets/images/partners/master/partner8-5.jpg",
-    "assets/images/partners/master/partner8-6.jpg",
-    "assets/images/partners/master/partner8-7.jpg",
-    "assets/images/partners/master/partner8-8.jpg",
-    "assets/images/partners/master/partner8-9.jpg",
-    "assets/images/partners/master/partner8-10.jpg",
+    "assets/images/partners/master/web/partner8-1.webp",
+    "assets/images/partners/master/web/partner8-2.webp",
+    "assets/images/partners/master/web/partner8-3.webp",
+    "assets/images/partners/master/web/partner8-4.webp",
+    "assets/images/partners/master/web/partner8-5.webp",
+    "assets/images/partners/master/web/partner8-6.webp",
+    "assets/images/partners/master/web/partner8-7.webp",
+    "assets/images/partners/master/web/partner8-8.webp",
+    "assets/images/partners/master/web/partner8-9.webp",
+    "assets/images/partners/master/web/partner8-10.webp",
   ],
   partner9: [
-    "assets/images/partners/hadr-mout/partner9-1.jpg",
-    "assets/images/partners/hadr-mout/partner9-2.jpg",
-    "assets/images/partners/hadr-mout/partner9-3.jpg",
-    "assets/images/partners/hadr-mout/partner9-4.jpg",
-    "assets/images/partners/hadr-mout/partner9-5.jpg",
-    "assets/images/partners/hadr-mout/partner9-6.jpg",
-    "assets/images/partners/hadr-mout/partner9-7.jpg",
+    "assets/images/partners/hadr-mout/web/partner9-1.webp",
+    "assets/images/partners/hadr-mout/web/partner9-2.webp",
+    "assets/images/partners/hadr-mout/web/partner9-3.webp",
+    "assets/images/partners/hadr-mout/web/partner9-4.webp",
+    "assets/images/partners/hadr-mout/web/partner9-5.webp",
+    "assets/images/partners/hadr-mout/web/partner9-6.webp",
+    "assets/images/partners/hadr-mout/web/partner9-7.webp",
   ],
   partner10: [
-    "assets/images/partners/sraya/partner10-1.jpg",
-    "assets/images/partners/sraya/partner10-2.jpg",
-    "assets/images/partners/sraya/partner10-3.jpg",
-    "assets/images/partners/sraya/partner10-4.jpg",
-    "assets/images/partners/sraya/partner10-5.jpg",
-    "assets/images/partners/sraya/partner10-6.jpg",
-    "assets/images/partners/sraya/partner10-7.jpg",
+    "assets/images/partners/sraya/web/partner10-1.webp",
+    "assets/images/partners/sraya/web/partner10-2.webp",
+    "assets/images/partners/sraya/web/partner10-3.webp",
+    "assets/images/partners/sraya/web/partner10-4.webp",
+    "assets/images/partners/sraya/web/partner10-5.webp",
+    "assets/images/partners/sraya/web/partner10-6.webp",
+    "assets/images/partners/sraya/web/partner10-7.webp",
   ],
 };
-
-let currentGallery = [];
-let currentIndex = 0;
-
-function openGallery(partner, index) {
-  currentGallery = partnerGalleries[partner];
-  currentIndex = index;
-  updateImage();
-  $("#galleryModal").modal("show");
-}
-
-function updateImage() {
-  document.getElementById("galleryImage").src = currentGallery[currentIndex];
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % currentGallery.length;
-  updateImage();
-}
-
-function prevImage() {
-  currentIndex =
-    (currentIndex - 1 + currentGallery.length) % currentGallery.length;
-  updateImage();
-}
-
-document.querySelectorAll(".partner-img").forEach((img) => {
-  img.addEventListener("click", () => {
-    openGallery(img.dataset.partner, parseInt(img.dataset.index));
-  });
-});

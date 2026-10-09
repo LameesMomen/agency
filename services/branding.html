@@ -1,172 +1,145 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      rel="shortcut icon"
-      href="../assets/images/favicon.ico"
-      type="image/x-icon"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0508" />
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon" />
+    <title>Food Branding & Packaging Design | FLARE</title>
+    <link rel="alternate" hreflang="ar" href="branding_ar.html" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Food Branding & Packaging Design | FLARE</title>
-
-    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
     />
-
-    <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- CSS File -->
-    <link rel="stylesheet" href="assets/css/service.css" />
+    <link rel="stylesheet" href="../assets/css/flare.css" />
   </head>
 
   <body>
-    <!-- ===== Back Button ===== -->
-    <a href="../index.html#services" class="back-home-btn">
-      <i class="fas fa-arrow-left"></i> Back to Home
-    </a>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="spotlight" aria-hidden="true"></div>
 
-    <!-- ===== Branding Page Section ===== -->
-    <section class="branding-page">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
       <div class="container">
-        <div class="row flex-column-reverse flex-lg-row flex-md-row">
-          <div class="col-lg-6 col-md-6 col-12 my-3 my-lg-0 my-md-0">
-            <!-- Left Content -->
-            <div class="branding-text">
-              <h1>Premium Restaurant Branding & Packaging</h1>
-
-              <p>
-                Your <strong>brand</strong> is the first thing customers fall in
-                love with.
-              </p>
-
-              <p>
-                We create powerful visual identities and packaging that make
-                your restaurant unforgettable and instantly recognizable. From
-                logo and colors to menus and packaging — every detail is
-                designed to attract attention, build trust, and increase orders.
-                Stand out on shelves. Stand out online. Stay in every customer’s
-                mind.
-              </p>
-
-              <ul>
-                <li>✔ Strategic Brand Identity</li>
-                <li>✔ Eye-catching Packaging Design</li>
-                <li>✔ Modern Visual Storytelling</li>
-              </ul>
-
-              <button onclick="scrollToContact()">
-                Start Your Brand Transformation Today
-              </button>
-            </div>
+        <nav class="nav-shell" aria-label="Main">
+          <a href="../index.html" class="brand" aria-label="FLARE">
+            <img src="../assets/images/logo-light.png" alt="FLARE Food Advertising" />
+          </a>
+          <div class="nav-actions">
+            <a class="lang-switch" href="branding_ar.html" hreflang="ar" lang="ar">عربي</a>
+            <a href="../index.html#services" class="btn btn--ghost btn--sm" data-magnetic><i class="fas fa-arrow-left"></i> Back to Home</a>
           </div>
-          <div class="col-lg-6 col-md-6 col-12">
-            <!-- Right Image -->
-            <div class="branding-image">
-              <img
-                src="../assets/images/services/branding-design.png"
-                alt="Branding Design"
-              />
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section class="sub-hero" id="top">
+        <div class="hero__bg"></div>
+        <div class="hero__grid-lines" data-speed="0.15"></div>
+        <div class="orb orb--ember" style="width: 420px; height: 420px; bottom: -10%; left: -10%" data-speed="-0.2"></div>
+        <div class="orb orb--plum" style="width: 520px; height: 520px; top: -10%; right: -10%" data-speed="0.15"></div>
+
+        <div class="container sub-hero__grid">
+          <div class="branding-text" data-reveal style="--d: 0.1s">
+            <span class="eyebrow">Our services</span>
+            <h1>Premium Restaurant Branding & Packaging</h1>
+
+            <p>
+              Your <strong>brand</strong> is the first thing customers fall in
+              love with.
+            </p>
+
+            <p>
+              We create powerful visual identities and packaging that make
+              your restaurant unforgettable and instantly recognizable. From
+              logo and colors to menus and packaging — every detail is
+              designed to attract attention, build trust, and increase orders.
+              Stand out on shelves. Stand out online. Stay in every customer’s
+              mind.
+            </p>
+
+            <ul>
+              <li>✔ Strategic Brand Identity</li>
+              <li>✔ Eye-catching Packaging Design</li>
+              <li>✔ Modern Visual Storytelling</li>
+            </ul>
+
+            <button onclick="scrollToContact()">
+              Start Your Brand Transformation Today
+            </button>
+
+          </div>
+
+          <div class="branding-image" data-reveal="scale" style="--d: 0.25s">
+            <div class="branding-image__card" data-tilt="8">
+              <img src="../assets/images/services/branding-design.webp" alt="Premium Restaurant Branding &amp; Packaging" />
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact Us Section-->
-    <section id="contact" class="flare-contact-section">
-      <div class="container">
-        <div class="row">
-          <!-- Left Content -->
-          <div class="col-lg-6 col-md-6 col-12 align-self-center">
-            <div class="contact-heading">
-              <h4>Let’s Bring Your <em>Food Brand</em> to Life</h4>
-              <p>
-                Have a project in mind or need help growing your food business?
-                We’re here to guide you every step of the way. Whether you want
-                stunning visuals, a stronger online presence, or a website that
-                converts, our team is ready to help.
-              </p>
-            </div>
-
-            <!-- Contact Cards -->
-            <div class="row mt-4">
-              <div class="col-lg-6 col-md-6 col-12 my-2">
-                <div class="contact-box">
-                  <i class="fas fa-phone-alt"></i>
-                  <h4>Mobile Number</h4>
-                  <p>
-                    <a href="tel:+201091786306">+20 1091786306</a>
-                  </p>
-                </div>
+      <!-- ===== Contact ===== -->
+      <section id="contact" class="section sub-contact">
+        <div class="container">
+          <div class="contact__panel" data-reveal="tilt">
+            <div class="sub-contact__stack">
+              <div class="contact-heading">
+                <span class="eyebrow">Contact</span>
+                <h4 style="margin-top: 18px">Let’s Bring Your <em>Food Brand</em> to Life</h4>
+                <p>Have a project in mind or need help growing your food business? We’re here to guide you every step of the way. Whether you want stunning visuals, a stronger online presence, or a website that converts, our team is ready to help.</p>
               </div>
 
-              <div class="col-lg-6 col-md-6 col-12 my-2">
+              <div class="sub-contact__row">
+                <div class="contact-box">
+                  <i class="fas fa-phone"></i>
+                  <h4>Mobile Number</h4>
+                  <p><a href="tel:+201091786306">+20 1091786306</a></p>
+                </div>
                 <div class="contact-box">
                   <i class="fas fa-envelope"></i>
                   <h4>Email</h4>
-                  <p>
-                    <a
-                      href="mailto:info@flarefoodadvertising.com"
-                      >info@flarefoodadvertising.com</a
-                    >
-                  </p>
+                  <p><a href="mailto:info@flarefoodadvertising.com">info@flarefoodadvertising.com</a></p>
                 </div>
               </div>
 
-              <div class="row">
-                <!-- Message Text -->
-                <div class="col-12 mt-3">
-                  <p class="contact-note">
-                    Reach out to us anytime and let’s start creating something
-                    delicious together. Send us a message, or connect through
-                    any of our channels—we’ll get back to you shortly with the
-                    support you need.
-                  </p>
-                </div>
+              <p class="contact-note">Reach out to us anytime and let’s start creating something delicious together. Send us a message, or connect through any of our channels—we’ll get back to you shortly with the support you need.</p>
 
-                <!-- CTA Button -->
-                <div class="col-12 mt-4">
-                  <a
-                    href="mailto:info@flarefoodadvertising.com"
-                    class="contact-btn"
-                  >
-                    Send Message ✨
-                  </a>
-                </div>
+              <div>
+                <a href="https://wa.me/201091786306?text=Hi%20FLARE%21%20I%27d%20like%20to%20talk%20about%20my%20food%20brand." target="_blank" rel="noopener" class="contact-btn" data-magnetic><i class="fab fa-whatsapp"></i>&nbsp; Send Message ✨</a>
               </div>
             </div>
-          </div>
 
-          <!-- Right Image -->
-          <div class="col-lg-6 col-md-6 col-12 d-none d-lg-block d-md-block">
-            <div class="contact-image">
-              <img
-                width="100%"
-                height="100%"
-                src="../assets/images/Call center-cuate.png"
-                alt="call-center"
-              />
+            <div class="mark-3d" aria-hidden="true">
+              <div class="mark-3d__plate" data-tilt="14">
+                <span class="mark-3d__ring"></span>
+                <img src="../assets/images/logo-mark-light.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- JS File -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/service.js"></script>
+    <footer class="footer" style="padding-top: 0">
+      <div class="container">
+        <div class="footer__bottom">
+          <span>Copyright © <span data-year>2025</span> FLARE. All Rights Reserved.</span>
+          <a href="#top" class="to-top">Back to top <i class="fas fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/flare.js"></script>
   </body>
 </html>
